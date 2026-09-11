@@ -4,5 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
+    "folium>=0.20.0",
+    "pgeocode>=0.5.0",
     "streamlit>=1.63.0",
+    "streamlit-folium>=0.27.4",
 ]
